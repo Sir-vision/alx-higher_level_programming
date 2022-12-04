@@ -2,6 +2,5 @@
 if __name__ == '__main__':
     import hidden_4.pyc
     name_list = dir(hidden_4.pyc)
-    for name in name_list:
-        if name[0:2] != "__":
-            print("{name}", end='')
+        if name_list[0:2] != "__":
+            print("{name_list}", end='')
