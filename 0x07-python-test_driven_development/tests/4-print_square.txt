@@ -49,3 +49,11 @@ TypeError: size must be an integer
 >>> print_square("4")
 Traceback (most recent call last):
 TypeError: size must be an integer
+
+>>> print_square(float(-4.5))
+Traceback (most recent call last):
+TypeError: size must be an integer
+
+>>> print_square(float('inf'))
+Traceback (most recent call last):
+TypeError: size must be an integer
