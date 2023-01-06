@@ -43,18 +43,17 @@ Quae animi affectio suum cuique tribuens atque hanc, quam dico.
 <BLANKLINE>
 Utinam quidem dicerent alium alio beatiorem! Iam ruinas videres
 
->>> text_indentation("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quonam modo?")
+>>> text_indentation("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quonam modo")
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <BLANKLINE>
-Quonam modo?
-<BLANKLINE>
+Quonam modo
 
 >>> text_indentation("Lorem ipsum dolor sit amet, consectetur adipiscing elit.Quonam modo")
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <BLANKLINE>
-uonam modo
+Quonam modo
 
->>> text_indentation("Lorem ipsum dolor sit amet, consectetur adipiscing elit? Quonam modo")
+>>> text_indentation("Lorem ipsum dolor sit amet, consectetur adipiscing elit?Quonam modo")
 Lorem ipsum dolor sit amet, consectetur adipiscing elit?
 <BLANKLINE>
 Quonam modo
