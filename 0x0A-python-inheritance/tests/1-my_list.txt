@@ -23,6 +23,9 @@ Basic print_sorted usage:
     >>> my_list.print_sorted()
     [-1, 0, 3, 4]
 
+Basic MyList usage (pos, neg, zero):
+    >>> my_list = MyList()
+
 Big int MyList usage:
     >>> my_list = MyList()
     >>> my_list.append(999999999999)
