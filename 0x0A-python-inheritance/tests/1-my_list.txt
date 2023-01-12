@@ -20,6 +20,8 @@ Basic MyList usage (pos, neg, zero):
     [-1, 4, 3, 0]
 
 Basic print_sorted usage:
+    >>> print(my_list)
+    [-1, 4, 3, 0]
     >>> my_list.print_sorted()
     [-1, 0, 3, 4]
 
