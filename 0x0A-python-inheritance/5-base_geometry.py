@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-"""BaseGeometry
+"""Defined a class BaseGeometry
 """
 
 
 class BaseGeometry:
+    """Class created"""
     pass
